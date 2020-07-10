@@ -1,7 +1,21 @@
 # RaspMonitor
 Remote controller for smart sauna, using Raspberry Pi and Telegram Bot Api
 <hr>
-<h2>Front-end part</h2>
+<h2>Description</h2>
+Fascinated by the Internet of Things and the idea of creating a smart home, I decided to combine a single-chamber computer Raspberry Pi, and the popular messenger Telegram, namely its HTTPS-requests service to the API Bot. By connecting DS18B20 digital thermometers and switching relays to control the heater to the Raspberry, I organized remote and autonomous sauna control. With many useful features: messaging, management and protection.
+
+<h3>Functions</h3>
+<ul>
+          <li>Heater on/off</li>
+          <li>Heating to the set temperature</li>
+          <li>Hysteresis heating, with the ability to specify the width of the hysteresis</li>
+          <li>User notification of status and threats</li>
+          <li>Providing brief and complete information about the sensors</li>
+          <li>Temperature and heater status data stream</li>
+        </ul>
+
+
+<h3>Front-end part</h3>
 <p>
 Keyboard to simplify working with the bot
 Of course, traditional chat bots can be taught to understand human language. But sometimes you want to get some official input from the user - and this is where custom keyboards can be extremely useful.
@@ -18,7 +32,7 @@ Example:
 
 
 <hr>
-<h2>Hardware part</h2>
+<h3>Hardware part</h3>
         <ul>
           <li>Raspberry Pi 3 Model B</li>
           <li>Digital thermometers DS18B20</li>
