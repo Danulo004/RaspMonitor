@@ -2,6 +2,9 @@
 Remote controller for smart sauna, using Raspberry Pi and Telegram Bot Api
 <hr>
 ## Hardware part ##
+<ul>
+          <li>Raspberry Pi 3 Model B</li>
+        </ul>
  Markup : - Raspberry Pi 3 Model B
           - Digital thermometers DS18B20
           - Heater
