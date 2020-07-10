@@ -1,7 +1,7 @@
 # RaspMonitor
 Remote controller for smart sauna, using Raspberry Pi and Telegram Bot Api
 <hr>
-##Hardware part
+##Hardware part##
 • Raspberry Pi 3 Model B
 • Digital thermometers DS18B20
 • Heater
